@@ -1,0 +1,43 @@
+## gooey-gpu
+redis ~= 4.4.2
+Pillow ~= 9.4.0
+fastapi ~= 0.89.1
+uvicorn[standard] ~= 0.20.0
+sentry-sdk ~= 1.14.0
+
+
+## xformers
+xformers==0.0.16
+triton==2.0.0.dev20221202
+
+## huggingface diffusers
+diffusers ~= 0.15.0
+transformers ~= 4.28.1
+accelerate ~= 0.17.0
+sentencepiece ~= 0.1.97
+
+## google colab general
+scipy ~= 1.10.0
+opencv-python ~= 4.7.0.68
+pandas ~= 1.5.3
+scikit-image ~= 0.19.3
+numexpr ~= 2.8.4
+
+## deforum
+omegaconf ~= 2.2.3
+einops ~= 0.4.1
+pytorch-lightning ~= 1.9.0
+torchmetrics ~= 0.11.4
+safetensors ~= 0.2.8
+kornia ~= 0.6.7
+ftfy ~= 6.1.1
+jsonmerge ~= 1.9.0
+matplotlib ~= 3.6.3
+resize-right ~= 0.0.2
+timm
+torchdiffeq ~= 0.2.3
+scikit-learn ~= 1.2.1
+torchsde ~= 0.2.5
+open-clip-torch ~= 2.10.1
+numpngw ~= 0.1.2
+ipython ~= 8.9.0
